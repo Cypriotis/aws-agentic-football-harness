@@ -1,6 +1,7 @@
 # Native AWS Football Lab
 
 Original AWS balanced football agents running local Qwen through Ollama, with a 5v5 simulator and browser UI for inspecting decisions and outcomes. The simulator is a local approximation of the AWS match environment.
+<img width="1201" height="771" alt="image" src="https://github.com/user-attachments/assets/69f16c38-e546-408c-8b6f-d346757c3c97" />
 
 ## Setup
 
