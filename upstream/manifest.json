@@ -1,0 +1,111 @@
+{
+  "repository": "https://github.com/aws-samples/sample-ai-possibilities",
+  "commit": "02fadb4bc7748eeb0d2ab6db150edfbd5766f63f",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "09951d9f8743a65d034616e602995a40a56c5cbd"
+    },
+    {
+      "path": "agentic-football-coach/kiro-football-coach/content-reference/en/game-mechanics.md",
+      "git_blob_sha": "f9afa40c2b93ec6d711d339f6e3ab4269bdfc6b4"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/README.md",
+      "git_blob_sha": "8e5788ee1a34b5aac5d99e2df5d7e951e4ff5aaa"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/agentcore/agentcore.json",
+      "git_blob_sha": "33b12e5e5b56b34675e565798d83e81e50b354f3"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/agentcore/cdk/lib/cdk-stack.ts",
+      "git_blob_sha": "3dac0669d1861b959449721eb86d7e430fd5cc91"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-def/src/main.py",
+      "git_blob_sha": "0bd9ec372d5f23127fa4dd5e7f407a16b6c7fec6"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-def/test_local.py",
+      "git_blob_sha": "1bc083a0c2b4c189bf887236006d39fc7b83659f"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-fwd1/src/main.py",
+      "git_blob_sha": "5fc3144bf8fb29f2b1d82f9ae57efc234be63396"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-fwd1/test_local.py",
+      "git_blob_sha": "f44527cc0671373a36b332c925b3df2c5830ed4f"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-fwd2/src/main.py",
+      "git_blob_sha": "8a10668ced60e9c9eef42a9b7491e0291b3cff1a"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-fwd2/test_local.py",
+      "git_blob_sha": "279f7cfde755b57f991aff98ba350f994169691e"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-gk/src/main.py",
+      "git_blob_sha": "16cf25a00ad98b829a22a30fa44b4fa495bc1fab"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-gk/test_local.py",
+      "git_blob_sha": "0a08678f0af4f18d89faf260e99f50cba9027bea"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-mid/requirements.txt",
+      "git_blob_sha": "8087805a2899d6105e4a8d49dbac5bc6f24f652e"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-mid/src/main.py",
+      "git_blob_sha": "4cd986327c2c42325d7d26cda2f05150fd86e96b"
+    },
+    {
+      "path": "agentic-football-sample-agents/ai-team-strands-balanced/ai-mid/test_local.py",
+      "git_blob_sha": "75e8846b5d085bf4d1cd6793a961459fdb7bf132"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/__init__.py",
+      "git_blob_sha": "019aeb0f2a8b6b0fc02923dc6c2eadc321459348"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/_bootstrap.py",
+      "git_blob_sha": "f37f4d02478b52d0a2309412d0fea76410b6b3f0"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/agent_base.py",
+      "git_blob_sha": "b6b71989d2a3ef6719fd75305f402bd72166516c"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/fallback.py",
+      "git_blob_sha": "ae22659846d554473083915237de0637f36b0741"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/json_tolerant.py",
+      "git_blob_sha": "b7e7eb893b3f0f8887065ea003642c6a5b0dbbdc"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/parsing.py",
+      "git_blob_sha": "7a7c58b1c1f8d4a588cd1ec4b7fa38e004e17a68"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/state.py",
+      "git_blob_sha": "b2e048bf425d600458f44ca36ff51397e26634e4"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/test_helpers.py",
+      "git_blob_sha": "5f5eaeef2161e1d12c822f93ebaad7e261a98a7c"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/test_parsing.py",
+      "git_blob_sha": "904c8e1caf1e770e2bb36ff13e8fcb17b79cead1"
+    },
+    {
+      "path": "agentic-football-sample-agents/lib/test_state.py",
+      "git_blob_sha": "08d183b6ed14fdf57796035372eedb52f7334ce1"
+    }
+  ],
+  "note": "Unmodified pinned AWS balanced team and shared library; the only agent source in this project."
+}

@@ -1,0 +1,7 @@
+# Original pinned AWS balanced application; only inference provider/model changes.
+# Agent settings are separate from the local match environment.
+name: aws-balanced-qwen
+source_commit: 02fadb4bc7748eeb0d2ab6db150edfbd5766f63f
+ollama:
+  url: http://localhost:11434
+  model: qwen2.5:14b

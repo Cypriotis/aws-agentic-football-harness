@@ -1,0 +1,30 @@
+:root {
+  --paper: #eef0ec;
+  --paper-alt: #e4e7e2;
+  --ink: #1a1a1a;
+  --ink-muted: #585d57;
+  --rule: #b9bdb7;
+  --accent: #2440d6;
+  --accent-soft: #dce2f8;
+  --signal-ok: #246c3a;
+  --signal-error: #9d332c;
+  --pitch-line: #8a9285;
+  --frame: #0f3b2a;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'Space Grotesk', Arial, sans-serif;
+  --space-unit: 8px;
+  color-scheme: light;
+}
+:root[data-theme='dark'] {
+  --paper: #111312;
+  --paper-alt: #1b1f1c;
+  --ink: #e6e8e4;
+  --ink-muted: #adb4aa;
+  --rule: #424a41;
+  --accent: #8eabff;
+  --accent-soft: #222e47;
+  --signal-ok: #8bc69a;
+  --signal-error: #f2a59a;
+  --pitch-line: #5b6658;
+  color-scheme: dark;
+}

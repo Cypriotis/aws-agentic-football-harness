@@ -1,0 +1,84 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Dependencies and generated frontend
+node_modules/
+.npm/
+.npm-cache/
+.vite/
+*.tsbuildinfo
+/football_lab/observability/static/
+
+# Builds and distributions
+/build/
+/dist/
+*.whl
+*.tar.gz
+
+# Runtime data and local reports
+/results/
+/reports/
+/screenshots/
+/test-results/
+/playwright-report/
+*.log
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.pid
+
+# Local documentation, archives and model weights
+/docs/
+/archives/
+/backups/
+/snapshots/
+*.zip
+*.gguf
+*.safetensors
+
+# Secrets
+.env
+.env.*
+!.env.example
+/.aws/
+/.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor, assistant and OS state
+/.idea/
+/.vscode/
+/.vs/
+/.codex/
+/.agents/
+*.code-workspace
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.orig
+*~

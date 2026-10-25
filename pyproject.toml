@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "football-lab"
+version = "0.1.0"
+description = "Local agentic 5v5 football research laboratory"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28,<0.29", "PyYAML>=6,<7", "strands-agents[ollama]==1.62.0", "bedrock-agentcore==1.17.0", "fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2"]
+
+[project.scripts]
+football-lab = "football_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["football_lab*"]
+
+[tool.setuptools.package-data]
+football_lab = ["data/*.json", "observability/static/*", "observability/static/assets/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = ["local_llm: explicitly opt-in local Ollama integration"]
+addopts = "-m 'not local_llm'"
